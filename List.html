@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<head>
+    <title>HTML BASICS</title> 
+    <!--<link href="https://drive.google.com/file/d/11l3uqy1SOGyuBKiFGWwlDgN3mpkQ0TFO/view?usp=sharing" rel="icon">-->
+    <link href="black logo.jpeg" rel="icon">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .container{
+            background-color: green;
+        }
+        .container h1{
+             color:orange;
+             padding-left:15%;
+             padding-top:20px;
+             padding-bottom:20px;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        .container1{
+            background-color: pink;
+            margin-top: 5%;
+            margin-left:10%;
+            margin-right: 10%;
+                }
+                .container1 h1{
+                    padding-left: 5%;
+                    padding-top:2%;
+                }
+                .container1 p{
+                    padding-left: 5%;
+                }
+                .container1 ul{
+                    padding-left: 8%;
+                }
+                .container1 img{
+                    padding-left: 25%;
+                }
+                #ordered_list{
+                    background-color: rgb(123, 173, 82);
+                    margin-left:10%;
+                    margin-right: 10%;
+                }
+                #ordered_list h1,  #unordered_list h1, #Definition_list h1{
+                    padding-left: 5%;
+                    padding-top:2%;
+                }
+                #ordered_list p,  #unordered_list p, #Definition_list p{
+                    padding-left: 5%;
+                    font-family: sans-serif;
+                    padding-right: 5%;
+
+                }
+                #ordered_list h3,  #unordered_list h3, #Definition_list h3{
+                    padding-left: 5%;
+                }
+                #ordered_list ol,  #unordered_list ol, #Definition_list ol{
+                    padding-left: 12%;
+                }
+               .ex{
+                   display: flex;
+               }
+               .ex1{
+                   margin-left:10% ;
+               }
+               .ex2, .ex3{
+                   float:left;
+                   padding-left: 20%;
+               }
+              #unordered_list{
+                background-color: rgb(169, 129, 192);
+                    margin-left:10%;
+                    margin-right: 10%;
+              }
+              #Definition_list{
+                background-color: rgb(164, 168, 98);
+                    margin-left:10%;
+                    margin-right: 10%;
+              }
+              footer{
+                  background-color:black ;
+                  color: antiquewhite;
+                  text-align: center;
+              }
+             .footer{
+                 padding-top: 10px;
+                 padding-bottom: 10px;
+                 font-size: 30px;
+             }
+             .footer a{
+                 color:rgb(255, 0, 170);
+             }
+    </style>
+</head>
+<div class="container">
+    <h1>HTML</h1>
+    </div>
+<body>
+<!--LIST-->
+<div class="container1">
+    <h1>List</h1><br>
+    <p>HTML lists allow web developers to group a set of related items in lists.</p><br>
+    <p>HTML offers web authors three ways for specifying lists of information. All lists must contain one or more list elements.</p><br>
+    <p>There are three types of list, they are as follow:</p>
+    <ul>
+        <li><a href="">Ordered List</a></li>
+        <li><a href="">Unordered List</a></li>
+        <li><a href="">Definition List</a></li>
+      </ul> <br>
+      <a><img src="Screenshot (864).png" alt="list image"></a><br><br>
+      <!-- <a><img src="https://drive.google.com/file/d/1f51ahDlO4hFUvIY2brrBD6oka-56xbKF/view?usp=sharing" alt="list image"></a><br><br>-->
+</div>
+<br><br><br>
+
+<!--Ordered List-->
+<div id="ordered_list">
+    <h1>Ordered List</h1><br>
+    <p>If you are required to put your items in a numbered list instead of bulleted, then HTML ordered list will be used. This list is created by using < ol > tag. The numbering starts at one and is incremented by one for each successive ordered list element tagged with < li >.</p>
+    <br>
+ <div class="ex">
+    <div class="ex1">
+    <h3>Example:1</h3>
+    <ol>
+        <li>Beetroot</li>
+        <li>Ginger</li>
+        <li>Potato</li>
+        <li>Radish</li>
+     </ol>
+    </div>
+
+    <div class="ex2">
+    <h3>Example:2</h3>
+        <ol type = "I">
+            <li>Beetroot</li>
+            <li>Ginger</li>
+            <li>Potato</li>
+            <li>Radish</li>
+         </ol>
+    </div> 
+
+    <div class="ex3">
+    <h3>Example:3</h3>
+    <ol type = "i">
+        <li>Beetroot</li>
+        <li>Ginger</li>
+        <li>Potato</li>
+        <li>Radish</li>
+     </ol>
+    </div>
+  </div><br><br>
+</div><br><br>
+
+<!--Unordered_list-->
+<div id="unordered_list">
+    <h1>Unordered List</h1><br>
+    <p>An unordered list is a collection of related items that have no special order or sequence. This list is created by using HTML < ul > tag. Each item in the list is marked with a bullet.</p>
+    <br>
+ <div class="ex">
+    <div class="ex1">
+    <h3>Example:1</h3>
+    <ul>
+        <li>Beetroot</li>
+        <li>Ginger</li>
+        <li>Potato</li>
+        <li>Radish</li>
+     </ul>
+    </div>
+
+    <div class="ex2">
+    <h3>Example:2</h3>
+    <ul type = "square">
+        <li>Beetroot</li>
+        <li>Ginger</li>
+        <li>Potato</li>
+        <li>Radish</li>
+     </ul>
+    </div> 
+
+    <div class="ex3">
+    <h3>Example:3</h3>
+    <ul type = "circle">
+        <li>Beetroot</li>
+        <li>Ginger</li>
+        <li>Potato</li>
+        <li>Radish</li>
+     </ul>
+    </div>
+  </div><br><br>
+</div><br><br>
+
+<!--Definition_list-->
+<div id="Definition_list">
+    <h1>Definition List</h1><br>
+    <p>HTML and XHTML supports a list style which is called definition lists where entries are listed like in a dictionary or encyclopedia. The definition list is the ideal way to present a glossary, list of terms, or other name/value list.</p> <br>
+    <p>
+        Definition List makes use of following three tags.</p>
+        <ol>
+          <li>< dl > − Defines the start of the list</li>
+          <li>< dt > − A term</li>
+          <li>< dd > − Term definition</li>
+          <li>< /dl > − Defines the end of the list</li>
+          </ol>
+    <br>
+ <div class="ex">
+    <div class="ex1">
+    <h3>Example:1</h3>
+    <dl>
+        <dt><b>HTML</b></dt>
+        <dd>This stands for Hyper Text Markup Language</dd>
+        <dt><b>HTTP</b></dt>
+        <dd>This stands for Hyper Text Transfer Protocol</dd>
+     </dl>
+    </div></div><br><br>
+</div><br><br>         
+</body>
+
+<footer>
+    <div class="footer">
+        Designed by <a href="https://prajwalmsresume.000webhostapp.com/">Prajwal M S</a>
+      </div>
+</footer>
+</html>
